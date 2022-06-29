@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>sam's tr(even) tr(odd) example</title>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <style>
+    table{
+      background-color: #eef;
+      height: 300px;
+      width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <center>
+ 
+<table border="2">
+  <tr><td>MY NAME IS SAMEER DRAXI</td></tr>
+  <tr><td>MECHANICAL ENGINEER</td></tr>
+  <tr><td>BECAME SOFTWARE ENGINEER</td></tr>
+  <tr><td>IN INNOVATTUM</td></tr>
+</table>
+ 
+<script>
+$( "tr:even" ).css( "background-color", "#bbf" );
+</script>
+    </center>
+  </div>
+
+<hr>
+
+<br><br><br>
+
+
+  <div>
+    <center>
+      <table border="1" width="10%">
+         <tr><td>SSLC CGPA 75%</td></tr>
+         <tr><td>PUC CGPA 50%</td></tr>
+         <tr><td>1ST YEAR CGPA 55%</td></tr>
+         <tr><td>2ND YEAR CGPA 55%</td></tr>
+         <tr><td>3RD YEAR CGPA 60%</td></tr>
+         <tr><td>4TH YEAR CGPA 55%</td></tr>
+      </table>
+ 
+      <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+            /* Selects all elements matched by <li> that have an even index value.*/
+            $("tr:odd").css("background-color", "lightblue");
+         });
+      </script>
+    </center>
+  </div>
+ 
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>The Selector Example</title>
+      <script type = "text/javascript" 
+         src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+		
+      
+   </head>
+	
+   <body>
+      <div>
+         <center>
+      <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+            /*  Selects all elements matched by <a> that have an href value containing 
+            domain.com.*/
+            $("a[href*='sameerdraxi.com']").css("background-color", "skyblue");
+         });
+      </script>
+
+
+      <a href="www.sameerdraxi.com" rel="nofollow">Link 1</a> 
+      <a href="#">Link 2</a> 
+      <a href="#">Link 3</a> 
+      <a href="#" rel="noself">Link 4</a>
+
+   </center>
+</div>
+   </body>
+</html>

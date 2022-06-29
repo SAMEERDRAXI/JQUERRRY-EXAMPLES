@@ -1,0 +1,53 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>The Selector Example</title>
+      <script type = "text/javascript" 
+         src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+    
+      
+   </head>  
+   <body>
+      <div>
+         <center>
+      <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+            /* Select link with an id of first and a class of big.*/
+            $("ul li:first").css("background-color", "yellow");
+         });
+      </script>
+      <ul>
+         <li><a id = "first" class="big" href="#">Big</a></li>
+         <li><a id = "first" class="medium" href="#">Medium</a></li>
+         <li><a id = "first" class="small" href="#">Small</a></li>
+      </ul>
+         </center>
+      </div>
+
+
+<hr><hr>
+
+<br><br><br>
+       <div>
+          <center>
+             <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+            /* Selects all elements matched by <li> that have an even index value.*/
+            $("li:even").css("background-color", "yellow");
+         });
+      </script>
+         <ul>
+         <li class="big">This is index : 0 list item of the DOM.</li>
+         <li class="medium">This is index : 1 list item of the DOM.</li>
+         <li class="small">This is index : 2 list item of the DOM.</li>
+      </ul>
+
+          </center>
+       </div>
+
+
+
+   </body>
+</html>

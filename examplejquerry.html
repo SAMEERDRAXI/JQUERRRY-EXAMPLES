@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SAM'S JQUERRY examples</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <div>
+    	<center>
+	<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#test").hide();
+  });
+});
+    </script>
+
+<h2>Enter/click on below click me button</h2>
+
+<h2 id="test">This is another paragraph.</h2>
+
+<button>Click me</button>
+        </center>
+    </div>
+
+    
+    <hr>
+<br><br>
+    <div>
+    	<center>
+    		<script>
+            $(document).ready(function(){
+              $("button").click(function(){
+               $(".test").hide();
+               });
+               });
+            </script>
+
+<p class="test">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<button>Click here</button>
+
+
+
+
+    	</center>
+    </div>
+
+
+
+
+
+    <hr>
+<br><br>
+    <div>
+    	<center>
+<script>
+$(document).ready(function(){
+  $("h1").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightgray");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "lightblue");
+    }, 
+    click: function(){
+      $(this).css("background-color", "yellow");
+    }  
+  });
+});
+</script>
+
+<h1>Click or move the mouse pointer over this Heading.</h1>
+
+
+
+    	</center>
+    </div>
+
+
+
+<hr>
+<br><br><br><br>
+    <div>
+    	<center>
+<script>
+$(document).ready(function(){
+  $(".intro").css("background-color","yellow");
+});
+</script>
+
+<h3 class="intro">My name is .</h3>
+<h3>SAMEER DRAXI.</h3>
+
+<div class="intro">My hometownt/city is </div>
+<h3>Vijayapur.</h3>
+
+
+    	</center>
+    </div>
+
+
+
+</body>
+</html>
